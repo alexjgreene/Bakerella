@@ -1,0 +1,219 @@
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+    max-width: 1065px;
+}
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+}
+
+fieldset legend {
+	cursor: default;
+	padding: 0 10px 0 10px;
+    color: #53433b;
+	font-size: 20px;
+    font-weight: bold;
+	font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#rec label {
+	cursor: default;
+	color: #53433b;
+	vertical-align: middle;
+	font-size: 13px;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.method {
+	cursor: default;
+	color: #53433b;
+	vertical-align: middle;
+	font-size: 16px;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+	text-decoration: underline;
+}
+
+.methodtext {
+	color: #53433b;
+	vertical-align: middle;
+	line-height: 30px;
+	font-size: 13px;
+	font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+label {
+	cursor: pointer;
+	color: #53433b;
+    vertical-align: middle;
+	font-size: 14px;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#flour {
+  transform:scale(1.5);
+  opacity:0.7;
+  }
+
+input,
+output {
+	width: 20px;
+    margin: 15px 5px 15px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] { 
+    display: inline-block;
+    width: auto;
+    height: 42px;
+    margin: 20px auto 10px;
+    padding: 0px 18px;
+    color: #ffffff;
+	background-color: #5cc6a6;
+    border: none;
+    border-radius: 5px;
+	font-weight: bold;
+	font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 12px;
+    text-transform: uppercase;
+	text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+main {
+    min-height: 520px;
+}
+
+.recipehead {
+	color: #ff8610;
+    vertical-align: middle;
+	font-size: 26px;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+	text-decoration: underline;
+}
+
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 30.5%;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	margin: 0 0 10px 10px;
+}
+
+.recipes-grid table {
+	border: 1px solid #ccc;
+	margin: 0 0 10px -30px;
+	padding: 5px 5px;
+}
+
+.top-bar {
+    min-height: 28px;
+    background: url(images/topbar.png) left top repeat-x;
+    background-size: auto 100%;
+}
+
+.notfound {
+	min-height: 400px;
+	background: url(images/404-error-page-not-found.jpg) center no-repeat;
+	background-size: auto 100%;
+}
+
+.missing {
+	color: #ff2400;
+}
+
+.logo {
+    margin: 2.5% 21% 1.5%;
+}
+
+.logo a {
+    display: inline-block;
+    width: 275px;
+    height: 80px;
+    background: url(images/logo.png) no-repeat;
+    background-size: 100% auto;
+}
+
+#main {
+    margin: 0;
+    display: block;
+    width: 100%;
+    clear: both;
+    height: 50px;
+}
+
+#main ul {
+    display: inline-block;
+    margin: 0 0 0 20%
+}
+
+#main a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #53433b;
+}
+
+.menu-item {
+    float: left;
+    position: relative;
+    width: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+#main .menu-item-2:before {
+    content: " ";
+    float: left;
+    color: #cbc6c4;
+    font-weight: normal;
+    border-left: 1px solid #cbc6c4;
+    height: 20px;
+    margin: 15px 0;
+}
+
+footer {
+	color: #53433b;
+    vertical-align: middle;
+    font-family: "Montserrat", Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+	margin: 50px 0 20px 0;
+}
