@@ -1,6 +1,6 @@
 <html>
     <head>
-		<link rel="stylesheet" href="index.css?28">
+		<link rel="stylesheet" href="index.css?64">
         <meta charset="utf-8">
 	<div class="top-bar">
 	</div>

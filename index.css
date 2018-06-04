@@ -38,6 +38,12 @@ fieldset legend {
     letter-spacing: .1em;
 }
 
+::selection {
+    background: #ffafa7;
+    color: #fff;
+    text-shadow: none;
+}
+
 .method {
 	cursor: default;
 	color: #53433b;
