@@ -9,6 +9,12 @@ $klein->respond(function ($request, $response, $service) {
 
 $klein->respond(
 	['GET','POST'],
+	'/',
+	require('pages/main.php')
+);
+
+$klein->respond(
+	['GET','POST'],
 	'/bakerella',
 	require('pages/main.php')
 );
